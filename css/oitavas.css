@@ -1,0 +1,122 @@
+.classe-div{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: bisque;
+}
+body{
+    background-color: brown;
+}
+
+.divOitavas{
+    padding: 10px;
+    width: 90%;
+    height: auto-fit;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: brown;
+    margin: auto;
+    max-width: 1500px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    background-color: rgba(198, 193, 193, 0.659);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.rodada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0.582);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 1.0rem;
+    margin-bottom: -1.0rem;
+}
+
+.linha1Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.imgP{
+    width: 12%;
+}
+
+.partida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -1.0rem;
+    background-color: rgba(245, 245, 220, 0.582);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.diaSemana{
+    background-color: brown;
+    padding: 4px;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    color: white;
+}
+
+.hora{
+    background-color: red;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    color: white;
+    
+}
+
+.gols{
+    background-color: white;
+    border-radius: 40%;
+    padding: 0.3rem;
+    width: 14px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.jogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

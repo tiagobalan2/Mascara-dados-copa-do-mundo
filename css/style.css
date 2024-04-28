@@ -1,0 +1,58 @@
+body{
+    background-color: brown;
+    color: white;
+}
+
+table{
+    background-color: white;
+    color: black;
+    width: 90%;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
+table tr td{
+    border-bottom: 1px solid grey;
+    padding: 0.5rem;
+}
+
+th {
+    padding-top: 0.7rem;    
+}
+
+table tr td{
+    text-align: center;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.imagemP{
+    height: 30px;
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.jogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+.gols{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
